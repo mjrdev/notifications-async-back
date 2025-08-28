@@ -8,7 +8,7 @@
 
 1.
 ```bash
-git clone ...
+git clone git@github.com:mjrdev/notifications-async-back.git
 ```
 
 2. copia .env.example
