@@ -11,12 +11,17 @@
 git clone git@github.com:mjrdev/notifications-async-back.git
 ```
 
-2. copia .env.example
+2.
+```bash
+cd notifications-async-back
+```
+
+3. copia .env.example
 ```bash
 cp .env.example .env
 ```
 
-2.
+4.
 ```bash
-docker compose up -d
+docker compose up -d --build
 ```
