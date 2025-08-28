@@ -10,7 +10,6 @@ export class NotificationController {
         return res.status(400).json({ error: 'messageId e body são obrigatórios' });
       }
 
-      // Definir messageId explicitamente nas propriedades da mensagem
       await rabbit.publish(
         rabbitConfig.exchange, 
         rabbitConfig.routingKey, 

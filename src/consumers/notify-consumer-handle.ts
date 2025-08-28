@@ -1,4 +1,4 @@
-// src/consumers/notify-consumer.ts
+
 import { ConsumeMessage } from 'amqplib';
 import { rabbit } from '../configs/rabbit';
 import { messageStatus, MsgStatus } from '../status-store';

@@ -1,4 +1,4 @@
-// src/routes/index.ts
+
 import { Router, Request, Response, NextFunction } from 'express';
 import { rabbit, rabbitConfig } from '../configs/rabbit';
 import { NotificationController } from '../controllers/notification-controller';
